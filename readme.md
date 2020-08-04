@@ -5,18 +5,11 @@ Functional programming (FP) provides many advantages, and its popularity has bee
 Examples are presented in JavaScript (ES2015). [Why JavaScript?](https://github.com/hemanth/functional-programming-jargon/wiki/Why-JavaScript%3F)
 
 Where applicable, this document uses terms defined in the [Fantasy Land spec](https://github.com/fantasyland/fantasy-land)
-
-__Translations__
-* [Portuguese](https://github.com/alexmoreno/jargoes-programacao-funcional)
-* [Spanish](https://github.com/idcmardelplata/functional-programming-jargon/tree/master)
-* [Chinese](https://github.com/shfshanyue/fp-jargon-zh)
-* [Bahasa Indonesia](https://github.com/wisn/jargon-pemrograman-fungsional)
-* [Python World](https://github.com/jmesyou/functional-programming-jargon.py)
-* [Scala World](https://github.com/ikhoon/functional-programming-jargon.scala)
-* [Rust World](https://github.com/JasonShin/functional-programming-jargon.rs)
-* [Korean](https://github.com/sphilee/functional-programming-jargon)
-* [Haskell Turkish](https://github.com/mrtkp9993/functional-programming-jargon)
-
+  
+**Functional Reactive Programming (FRP)** is a paradigm for software development that says that entire programs can be built uniquely around the notion of `streams`. Not only frontend programs, but any program in general.  
+  
+While developing in this paradigm, development consists of creating or identifying the `streams` of values your program is interested in, combining them together and finally `subscribing` to those streams to produce a reaction to new values.  
+  
 __Table of Contents__
 <!-- RM(noparent,notop) -->
 
