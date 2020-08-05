@@ -9,6 +9,9 @@ Where applicable, this document uses terms defined in the [Fantasy Land spec](ht
 **Functional Reactive Programming (FRP)** is a paradigm for software development that says that entire programs can be built uniquely around the notion of `streams`. Not only frontend programs, but any program in general.  
   
 While developing in this paradigm, development consists of creating or identifying the `streams` of values your program is interested in, combining them together and finally `subscribing` to those streams to produce a reaction to new values.  
+
+**The core goal of FRP**
+The main idea of FRP is to build programs in a `declarative` only way, by defining what are the streams, how they are linked together and what happens if a new stream value arrives over time.
   
 __Table of Contents__
 <!-- RM(noparent,notop) -->
